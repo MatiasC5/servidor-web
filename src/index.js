@@ -1,5 +1,5 @@
-const { createServer } = require("./server/server");
-const { envs } = require("./config/env");
+import { createServer } from "./server/server.js";
+import { envs } from "./config/env.js";
 
 const main = () => {
   createServer({
